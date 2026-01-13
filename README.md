@@ -5,11 +5,11 @@ This project is a **Deep Learning** application focused on **Image Classificatio
 
 ---
 
-## 🚀 MNIST Handwritten Digit Classification
+## MNIST Handwritten Digit Classification
 
 This repository contains a Jupyter Notebook that implements a **Multi-Layer Perceptron (MLP)** to recognize handwritten digits (0-9). The model is trained on the MNIST dataset, which contains 70,000 grayscale images of  pixels.
 
-### 🧠 Model Architecture
+###  Model Architecture
 
 The neural network is built using the Keras `Sequential` API and consists of:
 
@@ -18,7 +18,7 @@ The neural network is built using the Keras `Sequential` API and consists of:
 * **Dense Layer (32 units):** Fully connected layer with **ReLU** activation.
 * **Output Layer (10 units):** Uses **Softmax** activation to provide probability scores for each digit class.
 
-### 🛠️ Technical Stack
+###  Technical Stack
 
 * **Language:** Python
 * **Deep Learning:** TensorFlow, Keras
@@ -26,7 +26,7 @@ The neural network is built using the Keras `Sequential` API and consists of:
 * **Visualization:** Matplotlib
 * **Metrics:** Scikit-learn (`accuracy_score`)
 
-### 📊 Key Features
+###  Key Features
 
 * **Data Normalization:** Scales pixel values from [0, 255] to [0, 1] to accelerate model convergence.
 * **Optimization:** Uses the **Adam** optimizer and **Sparse Categorical Crossentropy** loss function.
@@ -34,13 +34,13 @@ The neural network is built using the Keras `Sequential` API and consists of:
 * **Performance Tracking:** Includes visual plots for **Loss** and **Accuracy** across 25 epochs.
 * **Prediction:** A functional prediction pipeline to test the model on individual test images.
 
-### 📈 Results
+###  Results
 
 The model achieves an impressive accuracy of **~97.9%** on the test dataset after 25 epochs of training.
 
 ---
 
-### 📂 Getting Started
+###  Getting Started
 
 1. Clone this repository.
 2. Install dependencies:
