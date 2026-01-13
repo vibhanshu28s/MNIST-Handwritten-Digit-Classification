@@ -51,5 +51,3 @@ pip install tensorflow matplotlib scikit-learn
 
 
 3. Run the `mnist-classification.ipynb` notebook to see the results.
-
-Would you like me to help you create a specific `README.md` file for this repository?
